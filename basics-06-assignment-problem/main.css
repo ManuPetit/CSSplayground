@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    color: #563dc5;
+    font-family: 'Lato', sans-serif;
+}
+
+code {
+    font-family: monospace;
+    color: #ff0000;
+}
+
+.selected-line code {
+    color: #0b720b;
+}
+
+li {
+    font-family: inherit;
+}
+
+li ~ li {
+    color: #ffffff;
+    background: #000000;
+}
+
+ol li {
+    color: #ffffff;
+    background: #000000;
+}
