@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+/*
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+*/
+.box {
+    padding: 15px 20px;
+    border: 2px dashed blue;
+    margin: 10px 25px 15px 8px;
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+}
+.box:first-of-type {
+    visibility: hidden;
+}
+.box:last-of-type {
+    width: calc(50% - 75px);
+}
+.box:last-of-type:hover {
+    border: 2px solid red;
+    background: #6ba362;
+}
